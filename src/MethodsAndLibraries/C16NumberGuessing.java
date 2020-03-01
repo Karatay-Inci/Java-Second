@@ -2,7 +2,7 @@ package MethodsAndLibraries;
 
 import java.util.Scanner;
 
-public class NumberGuessing {
+public class C16NumberGuessing {
     public static void guessTheNumber(int number) {
         Scanner myScan=new Scanner(System.in);
         int userGuess=0;

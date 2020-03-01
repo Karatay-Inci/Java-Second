@@ -9,5 +9,8 @@ public class C4ATest {
         System.out.println(smth());
         System.out.println(C4A.smht());
         C8PrintingMultiplicationTable.printMultiplication();
+
+
+        C14TopToBottom.topToBottom("Hello");
     }
 }
