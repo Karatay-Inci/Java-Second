@@ -12,7 +12,7 @@ public class D5Exam2 {
     }
     static char c(int b){
         char d='a';
-        d+=b;
+        d +=b;
         return d;
     }
 }
