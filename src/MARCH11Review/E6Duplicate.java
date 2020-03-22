@@ -4,7 +4,7 @@ public class E6Duplicate {
     //Find duplicate values in the String Array
 
     public static void main(String[] args) {
-        
+
         String myArr[]={"abc","def","abc","ddd","def"};
         printDuplicates(myArr);
     }
