@@ -11,10 +11,6 @@ public class F8CarTest {
 
 
 
-
-
-
-
         //System.out.println(camry.toString());
         //Output= MARCH14CreatingClasses.F8Car@77459877
         //           (=package)         .(=Class)   (=reference)
