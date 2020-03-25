@@ -50,7 +50,7 @@ public class F13StringOperation {
     }
     public String[] returnSentence(){
         this.value+=" ";
-        int numberOfSpaces=1;
+        int numberOfSpaces=0;
         for(int i=0;  i<this.value.length();  i++){
             if(this.value.charAt(i)==' '){
                 numberOfSpaces++;
@@ -64,9 +64,12 @@ public class F13StringOperation {
                 word+=this.value.charAt(i);
             }
             else{
+                if(index<numberOfSpaces-2){
                 words[index]=word;
                 index++;
                 word="";
+                    System.out.println(index);
+                }
             }
         }
         return words;

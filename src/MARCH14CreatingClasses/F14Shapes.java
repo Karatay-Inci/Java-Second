@@ -1,0 +1,49 @@
+package MARCH14CreatingClasses;
+
+public class F14Shapes {
+    char symbol;
+    int width;
+    int height;
+    boolean space;
+    public F14Shapes() {
+        this.symbol='*';
+        this.width=10;
+        this.height=10;
+        this.space=true;
+    }
+    public F14Shapes(char symbol, int width, int height, boolean space) {
+        this.symbol = symbol;
+        this.width = width;
+        this.height = height;
+        this.space = space;
+    }
+    public void printPyramid(){
+        for(int i=0 ; i < this.height ; i++){
+            for(int j=0 ; j<i ; j++){
+                System.out.print(symbol+" ");
+            }
+            System.out.println();
+        }
+    }
+    public void printPyramid(boolean space){
+        for (int i = 0; i < this.height; i++) {
+            for (int j = 0; j < i; j++) {
+                if(space) {
+                    System.out.print(symbol);
+                }
+                else{
+                    System.out.print("-"+symbol);
+                }
+            }
+            System.out.println();
+        }
+    }
+    public void printRectangle(){
+        for (int i = 0; i < this.height; i++) {
+            for (int j = 0; j < this.width; j++) {
+                System.out.print(symbol+" ");
+            }
+            System.out.println();
+        }
+    }
+}
