@@ -2,6 +2,7 @@ package FEB26MethodsAndLibraries;
 
 public class C32Mortgage {
     public static void main(String[] args) {
+
         System.out.println(calculateMortgage(2400,15));
     }
     public static int calculateMortgage(int monthly, int mountNum ){

@@ -2,7 +2,7 @@ package FEB29Arrays;
 
 import java.awt.image.SampleModel;
 
-public class D24ArrayTranspose {
+public class D24ArrayTransposeQ {
     // Write a method returns 2D array columns as rows as columns
     //Sample:    -->     Output:
     // 1  2               1  3

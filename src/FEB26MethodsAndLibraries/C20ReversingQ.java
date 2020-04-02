@@ -1,6 +1,6 @@
 package FEB26MethodsAndLibraries;
 
-public class C20Reversing {
+public class C20ReversingQ {
 
     public static void reversingString(String sentence){
         for (int i=sentence.length()-1;   i>=0;   i--){

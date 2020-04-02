@@ -18,7 +18,7 @@ public class D23DisplayMinValue {
     public static void printRowsMin(int arr[][]){
         int index=0;
         for(int[] row:arr){
-            System.out.println("Min of row"+index+" "+returnMin(row));
+            System.out.println("Min of row: "+index+" "+returnMin(row));
             index++;
         }
     }

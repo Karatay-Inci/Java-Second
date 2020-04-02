@@ -10,6 +10,6 @@ public class C1Power {
         System.out.print("Enter power number: ");
         int power=scanner.nextInt();
 
-        System.out.println((int)Math.pow(base,power));
+        System.out.println((int)Math.pow(base,power));  //Math.pow= it is used to calculate a number raise to the power of some other number.
     }
 }

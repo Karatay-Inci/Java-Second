@@ -24,9 +24,9 @@ public class C13PasswordChaeck {
         }
         else{
             System.out.println("OK");
-        }
+        }                                                       //?
     }
-    public static String passwordCheck(String password){
+    public static String passwordCheck(String password){            //when are we writing the return
         String result;
         if(password.length()>=6){
             result="OK";

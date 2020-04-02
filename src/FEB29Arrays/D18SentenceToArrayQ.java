@@ -1,6 +1,6 @@
 package FEB29Arrays;
 
-public class D18SentenceToArray {
+public class D18SentenceToArrayQ {
     public static void main(String[] args) {
         String sentence = "We are in love with Java";
         String [] resultArray = convertStringToArray(sentence);

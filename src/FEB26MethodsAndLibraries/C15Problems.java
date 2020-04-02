@@ -18,7 +18,7 @@ public class C15Problems {
 
     public static void printASCIIALL(){
         for(int i=0;   i<256;    i++){
-            System.out.println("NUumber :"+i+" "+"Character :"+(char)i);
+            System.out.println("Number :"+i+" "+"Character :"+(char)i);
         }
     }
     public static void printLowercase(){

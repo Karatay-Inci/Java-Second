@@ -8,6 +8,7 @@ public class D5Exam {
         System.out.println(doAnotherThing());
     }
     public static String doAnotherThing(){
+
         return "ABC";
     }
 }

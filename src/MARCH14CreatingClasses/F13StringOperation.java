@@ -68,7 +68,8 @@ public class F13StringOperation {
                 words[index]=word;
                 index++;
                 word="";
-                    System.out.println(index);
+                    System.out.println(index
+                    );
                 }
             }
         }

@@ -1,6 +1,6 @@
 package FEB29Arrays;
 
-public class D23DisplayMaxValue {
+public class D23DisplayMaxValueQ {
     // Write a method to display max value of each row in a 2=dimensional array
     // Write a method to display min value of each row in a 2=dimensional array
     // Write a method to display max difference of each row in a 2=dimensional array
@@ -51,7 +51,7 @@ public class D23DisplayMaxValue {
     public static void printRowsMin(int arr[][]){
         int index=0;
         for(int[] row:arr){
-            System.out.println("Min of row"+index+" "+returnMin(row));
+            System.out.println("Min of row: "+index+" "+returnMin(row));
             index++;
         }
     }

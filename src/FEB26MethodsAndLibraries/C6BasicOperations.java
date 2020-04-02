@@ -2,6 +2,7 @@ package FEB26MethodsAndLibraries;
 
 public class C6BasicOperations {
     public static double returnSmth(){
+
         return 3.5;
     }
     public static int addTwo(int a, int b){
@@ -13,9 +14,10 @@ public class C6BasicOperations {
         return c;
     }
     public static double muliplyTwo(int a,int b){
+
         return a*b;
     }
-    public static double divideTw(int a, int b){
+    public static double divideTwo(int a, int b){
         double result = a/b;
         return result;
     }

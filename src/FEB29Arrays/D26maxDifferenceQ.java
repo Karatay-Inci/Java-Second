@@ -1,6 +1,6 @@
 package FEB29Arrays;
 
-public class D26maxDifference {
+public class D26maxDifferenceQ {
     //For given 1 dim array find the max difference for the adjacent elements
     public static void main(String[] args) {
         int[] myNumbers = {2,5,7,8,20,10};

@@ -1,6 +1,6 @@
 package FEB29Arrays;
 
-public class D21Cities {
+public class D21CitiesQ {
     //Question= Create random 2-dimensional String array with city names
 
    /* public static void main(String[] args) {
@@ -26,3 +26,4 @@ public class D21Cities {
         return randCities;
     }*/
 }
+

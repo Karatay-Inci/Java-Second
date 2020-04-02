@@ -1,6 +1,6 @@
 package FEB26MethodsAndLibraries;
 
-public class C12PrintingName {
+public class C12PrintingNameQ {
     /*        Print your name in the main
             1.Write a void method to write your name (without parameter)
             2.Write a void method to write your name (with parameter)
@@ -12,19 +12,23 @@ public class C12PrintingName {
         printMyName1();
         printMyName2("It is always fun with Java");
         System.out.println(printMyName3());
-        System.out.println(peintMyName4("So you are also in love with Java"));
+        System.out.println(printMyName4("So you are also in love with Java"));
 
     }
     public static void printMyName1(){
+
         System.out.println("Yes sure");
     }
     public static void printMyName2(String name){
-        System.out.println(name);
+
+        System.out.println(name);               //??
     }
     public static String printMyName3(){
+
         return "O yeah I love Java too";
     }
-    public static String peintMyName4(String name){
-        return name;
+    public static String printMyName4(String name){
+
+        return name;                       // ??
     }
 }

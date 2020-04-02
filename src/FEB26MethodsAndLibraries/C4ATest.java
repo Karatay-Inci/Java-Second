@@ -2,6 +2,7 @@ package FEB26MethodsAndLibraries;
 
 public class C4ATest {
     public static int smth(){
+
         return 20;
     }
 

@@ -8,6 +8,5 @@ public class C7PrinthingsASCIIValues {
     }
     public static void main(String[] args) {
         listASCII();
-        listASCII();
     }
 }
