@@ -1,7 +1,7 @@
 package FEB1secondpackage9;
 
 public class A8FormatQuestion {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         String java = "Java is fun";
         float percentageLarge = 78.98f;
         double percentageSmall = 78.98000;

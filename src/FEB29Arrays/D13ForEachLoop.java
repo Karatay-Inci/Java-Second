@@ -9,8 +9,7 @@ public class D13ForEachLoop {
             System.out.println(number);
         }
         for (String word:arrayString){
-            System.out.println(word
-            );
+            System.out.print(word);
         }
     }
 }
